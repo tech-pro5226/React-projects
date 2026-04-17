@@ -1,0 +1,48 @@
+#inp,.habitItem{
+    font-size: 18px;
+    width: 82.5%;
+    border: none;
+    box-shadow: 0px 0px 1px 1px red;
+    padding: 0.4rem 1.5rem;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.editor{
+    width: 40%;
+    padding: 2rem 1rem;
+    margin: 100px auto;
+    box-shadow: 0px 0px 2px 2px red;
+    border-radius: 10px;
+    height: 180px;
+}
+.submitBtn:hover{
+    background-color: white;
+    color: red;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 1px 1px red;
+}
+.habits{
+    width: 40%;
+    max-height:450px ;
+    padding: 2rem 1rem;
+    margin: 100px auto;
+    box-shadow: 0px 0px 2px 2px red;
+    border-radius: 10px;
+    overflow: scroll;
+    /* height: 180px; */
+}
+.habitItem{
+    padding: 0.4rem 1rem;
+
+}
+.habitItems{
+    list-style: none;
+
+}
+.items{
+    display: flex;
+    align-items: center;
+}

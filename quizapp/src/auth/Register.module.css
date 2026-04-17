@@ -1,0 +1,54 @@
+/* write css for register page */
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 100px auto;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgb(226, 178, 178);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+    margin-top: 2rem;
+}
+.input{
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 1px 1px rgb(226, 178, 178);
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.loginLink{
+    margin-top: 1.5rem;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.link{
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.link:hover{
+    color: #2980b9;
+    text-decoration: underline;
+}

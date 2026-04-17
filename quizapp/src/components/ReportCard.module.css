@@ -1,0 +1,272 @@
+.reportCard {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reportHeader {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.reportTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 30px 0;
+}
+
+.scoreSummary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.scoreCircle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 6px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+
+.scorePercentage {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.scoreGrade {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.scoreDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.scoreItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  min-width: 280px;
+}
+
+.scoreLabel {
+  font-size: 16px;
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.scoreValue {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.quizBreakdown {
+  margin-top: 40px;
+}
+
+.breakdownTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.quizGroup {
+  margin-bottom: 30px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+}
+
+.quizGroupHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.quizGroupTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.quizGroupScore {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3498db;
+  background: #e3f2fd;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.questionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.questionResult {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  border-left: 4px solid;
+}
+
+.questionResult.correct {
+  border-left-color: #27ae60;
+  background: #d4edda;
+}
+
+.questionResult.incorrect {
+  border-left-color: #e74c3c;
+  background: #f8d7da;
+}
+
+.questionResult.unanswered {
+  border-left-color: #95a5a6;
+  background: #ecf0f1;
+}
+
+.questionResultHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.questionResultNumber {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3498db;
+  background: #e3f2fd;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.questionResultStatus {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.questionResult.correct .questionResultStatus {
+  color: #27ae60;
+}
+
+.questionResult.incorrect .questionResultStatus {
+  color: #e74c3c;
+}
+
+.questionResult.unanswered .questionResultStatus {
+  color: #95a5a6;
+}
+
+.questionResultMarks {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.questionResultText {
+  font-size: 16px;
+  color: #2c3e50;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.answerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.selectedAnswer {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.correctAnswer {
+  font-size: 14px;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.reportActions {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.retakeBtn {
+  padding: 12px 40px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .reportCard {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .reportTitle {
+    font-size: 24px;
+  }
+
+  .scoreCircle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .scorePercentage {
+    font-size: 36px;
+  }
+
+  .scoreGrade {
+    font-size: 20px;
+  }
+
+  .scoreSummary {
+    gap: 30px;
+  }
+
+  .scoreItem {
+    min-width: 100%;
+  }
+
+  .quizGroupHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
